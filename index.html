@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pedro Porath</title>
+    <meta charset="utf-8">
+    
+    <!-- Favicon que fica na aba do navegador -->
+    <link rel="icon" href="img/logoSemNomePreto.png" type="image/svg" sizes="16x16">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!--Libs CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="vendor/normalize-css/normalize.css" media="screen" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900,300,100,200,500' rel='stylesheet'
+        type='text/css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+        integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+
+    <!-- Link para a Biblioteca Leaflet JS: arquivo JavaScript e arquivo CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/leaflet/leaflet.css"/>
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+
+    <!-- Link para dados Geográficos -->
+    <script src="geojson/pontos.js"></script>
+
+    <!-- Leaflet's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+    <!-- OVERRIDE Libs CSS -->
+    <link rel="stylesheet" href="css/bootstrap-override.css" media="screen" charset="utf-8">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="page-top" data-gr-c-s-loaded="true">
+
+    <header>
+        <!-- Barra de Navigação -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <img class="icone-menu" src="img/logoSemNome.png" style="margin-right: 50px;">
+                <a class="navbar-brand js-scroll-trigger" href="#home">PEDRO PORATH</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#materiais">Materiais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#webmap">Mapa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <!-- Seção do home (página inicial) -->
+        <section id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="img/logo.png" width="600px" style="margin-left: calc(50% - 650px)">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção sobre o autor -->
+        <section id="sobre">
+            <div class="container bloco-seis">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="text-center section-title" style="margin-top: 5px;">Sobre</h1>
+                                <hr class="section-hr">
+                                <p>
+                                    O Pedro H. M. Porath é mestre em Engenharia de Transportes e Gestão Territorial pela
+                                    Universidade Federal de Santa Catarina (UFSC), possui MBA em Infraestrutura de
+                                    Transportes e Rodovias (IPOG), Bacharelado em Geografia pela Universidade do Estado
+                                    de
+                                    Santa Catarina (UDESC) e Técnico Geomensor pelo Instituto Federal de Santa Catarina
+                                    (IFSC).
+                                </p>
+                                <p>
+                                    O profissional possui experiência em Geoprocessamento desde 2009, quando ingressou
+                                    no
+                                    Laboratório de Geoprocessamento (Geolab-UDESC) para participar de projeto de
+                                    Pesquisas
+                                    Científica. Durante o período de graduação fez estágios em duas empresas e
+                                    participou de
+                                    um programa de intercâmbio na Universidade de Halmstad (Suécia) durante um semestre.
+                                </p>
+                                <p>
+                                    Em 2013, após a conclusão de sua graduação, passou a atuar no mercado de trabalho
+                                    como
+                                    Geógrafo, tendo o GIS como ferramenta de auxílio para problemas de ordem espacial em
+                                    diversas áreas, como: meio ambiente, transportes, setor de energia, geomarketing,
+                                    patrimonial e arqueologia. Atualmente é sócio proprietário da Porath Engenharia
+                                    Consultiva e Consultor GIS no Grupo Zago (Brasília - DF).
+                                </p>
+                                <p class="card-text"><small class="text-muted">~Atualizado em 06/06/2020</small></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/pedro2.png" class="card-img" alt="Imagem do Pedro Porath"
+                                style="padding-top: 100px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção do portfolio do autor -->
+        <section id="portfolio">
+            <h1 class="text-center section-title" style="margin-top: 5px;">Portfólio</h1>
+            <hr class="section-hr">   
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/automatizacaoProcessos.png" class="d-block w-100"
+                            alt="Automatização de Processos">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Automatização de processos</h5>
+                            <p>Utilização de linguagem de programação Python e Constrtutores de modelos (no ArcGIS e
+                                QGIS) para criar ferramentas e
+                                automatizar processos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/tomadaDecisao.png" class="d-block w-100" alt="Tomada de Decisão">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tomada de Decisão a partir de Análise Multicritério</h5>
+                            <p>Uso de método GIS+AHP como auxílio a Tomada de Decisão em projetos do setor energético,
+                                transportes, geomarketing, meio ambiente e etc.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/bdwebgis.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Banco de Dados Geográfico e Representação de projeto GIS na web</h5>
+                            <p>Elaboração de BD Geográfico seguindo padrão da INDE e exposição de resultados através de
+                                webmaps.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/consultoria.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Treinamentos e Consultoria GIS</h5>
+                            <p>Treinamentos in-company e consultoria GIS para resolução de problemas de ordem espacial
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <!-- Seção de materiais elaborado pelo autor -->
+        <section id="materiais">
+            <h1 class="text-center section-title" style="margin-top: 5px;">Materiais</h1>
+            <hr class="section-hr">
+            <div class="container bloco-quatro">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="img/artigo.png" class="card-img-top" alt="Imagem de publicações">
+                            <div class="card-body">
+                                <h5 class="card-title">Publicações</h5>
+                                <p class="card-text">Coletânia de publicações (artigos, TCC, dissertação de mestrado,
+                                    banners e etc) de minha autoria ou coautoria</p>
+                                <a href="https://drive.google.com/drive/folders/0B7HtZsLkX5nEc1dKY3YxYW4xMTA"
+                                    class="btn btn-dark">Acesse</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="img/toolbox.png" class="card-img-top" alt="Imagem de toolbox">
+                            <div class="card-body">
+                                <h5 class="card-title">Model Builder - ArcGIS</h5>
+                                <p class="card-text">Ferramentas desenvolvidas por mim através do Model Builder (ArcGIS)
+                                    visando a automatização de processos.</p>
+                                <a href="https://github.com/phporath/GIS-Tools/tree/master/ModelBuilder"
+                                    class="btn btn-dark">Acesse</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <img src="img/script.png" class="card-img-top" alt="Imgem de Scripts">
+                            <div class="card-body">
+                                <h5 class="card-title">Scripts em Python</h5>
+                                <p class="card-text">Scripts desenvolvidos na linguagem de programação Python (ArcPy e PyQGIS) por mim, visando a
+                                    automatização de processos.</p>
+                                <a href="https://github.com/phporath/GIS-Tools/tree/master/ArcPy"
+                                    class="btn btn-dark">Acesse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="webmap">
+            <h1 class="text-center section-title" style="margin-top: 5px;">Por onde andei</h1>
+            <hr class="section-hr">
+            <div id="mapid"></div>
+            <script type="text/javascript">
+
+                // Mapa base
+
+                mapLink = '<a href="http://www.esri.com/">Esri</a>';
+                wholink = 'i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
+                var esri = L.tileLayer(	'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                    attribution: '&copy; '+mapLink+', '+wholink,
+                });
+
+                var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+                    maxZoom: 20,
+                    subdomains:['mt0','mt1','mt2','mt3']
+                });
+                
+                var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
+                    maxZoom: 20,
+                    subdomains:['mt0','mt1','mt2','mt3']
+                });
+
+                var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
+                    maxZoom: 20,
+                    subdomains:['mt0','mt1','mt2','mt3']
+                });
+
+                var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
+                    maxZoom: 20,
+                    subdomains:['mt0','mt1','mt2','mt3']
+                }); 
+
+    			var osm = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {attribution: 'Mapas &copy; OpenCycleMap, Dados do Mapa &copy; contribuidores do OpenStreetMap'});
+
+                // Camada de Instituições de Ensino (locais onde estudei)
+
+                var estudoIcone = new L.icon ({
+                    iconUrl: 'img/marker-red.svg',
+                    iconSize: [40, 40],
+                    iconAnchor: [40, 40],
+                    popupAnchor: [0, -35]
+                });
+
+                function estudoLayer (feature, layer) {
+                    layer.bindPopup('<b>' + feature.properties.nome + '</b>'+'<p>' + feature.properties.situacao + '</p>'+'<p> Período: ' + feature.properties.periodo + '</p>');
+                    layer.setIcon(estudoIcone);
+                };
+
+                var pontoEstudo = L.geoJson(locais, {
+                    filter: tipoFilter,
+                    onEachFeature: estudoLayer
+                });
+
+                function tipoFilter(feature){
+                    if (feature.properties.tipo === "Estudo") return true
+                }
+
+                // Camada de Empresas (locais onde trabalhei)
+
+                var trabalhoIcone = new L.icon ({
+                    iconUrl: 'img/marker-green.svg',
+                    iconSize: [40, 40],
+                    iconAnchor: [40, 40],
+                    popupAnchor: [0, -35]
+                });
+
+                function trabalhoLayer (feature, layer) {
+                    layer.bindPopup('<b>' + feature.properties.nome + '</b>'+'<p>' + feature.properties.situacao + '</p>'+'<p> Período: ' + feature.properties.periodo + '</p>');
+                    layer.setIcon(trabalhoIcone);
+                };
+
+                var pontoTrabalho = L.geoJson(locais, {
+                    filter: tipoFilter2,
+                    onEachFeature: trabalhoLayer
+                });
+
+                function tipoFilter2(feature){
+                    if (feature.properties.tipo === "Trabalho") return true
+                }
+
+                // Tela inicial indicando a localização, zoom e layers a serem apresentadas
+
+                var mymap = L.map('mapid', {
+                    center: [15.00,0.00],
+                    zoom: 2,
+                    layers: [esri, pontoEstudo, pontoTrabalho]
+                });
+
+                // Controle de Informação Personalizada
+
+                var info = L.control();
+
+                info.onAdd = function (mymap) {
+                    this._div = L.DomUtil.create('div', 'info');
+                    this.update();
+                    return this._div;
+                };
+
+                info.update = function (props) {
+                    this._div.innerHTML= "<img src='img/logoSemNomePreto.png' alt='Logo Pedro Porath Soluções em GIS' width='50'/>";
+                };
+
+                info.addTo(mymap);
+
+                // Controle de Legenda Personalizada
+                
+                var legend = L.control({position: 'bottomleft'});
+                legend.onAdd = function(mymap){
+                    var div = L.DomUtil.create('div', 'legend');
+                    div.innerHTML += '<h5>Legenda:</h5>';
+                    div.innerHTML += '<p><img src="img/marker-red.svg">' + ' Instituições de Ensino</p>';
+                    div.innerHTML += '<p><img src="img/marker-green.svg">' + ' Empresas</p>';
+                    return div;
+                }
+                legend.addTo(mymap);
+              
+
+                // Visualização
+
+                var baseLayers = {
+                    "Google Satélite": googleSat,
+                    "Google Maps": googleStreets,
+                    "Google Híbrido": googleHybrid,
+                    "Google Terreno": googleTerrain,
+                    "Mapa - OSM": osm,
+                    "ESRI - Satélite": esri
+                };
+
+                var overlays = {
+                    "Instituições de Ensino": pontoEstudo,
+                    "Empresas": pontoTrabalho
+                };              
+
+                L.control.layers(baseLayers, overlays).addTo(mymap);
+
+                // Créditos - Logo (logo position: bottomright, topright, topleft, bottomleft)
+                
+                /*
+                var logo = L.control({position: 'topleft'});
+                logo.onAdd = function(mymap){
+                    var div = L.DomUtil.create('div', 'myclass');
+                    div.innerHTML= "<img src='img/logoSemNome.png' alt='Logo Pedro Porath Soluções em GIS' width='50'/>";
+                    return div;
+                }
+                logo.addTo(mymap);
+                */
+
+                // Primeiro Teste
+                /*
+                var layerGroup = L.geoJSON(locais, {
+                    onEachFeature: function (feature, geojsonFeature) {
+                        geojsonFeature.bindPopup('<b>' + feature.properties.nome + '</b>'+'<p>' + feature.properties.situacao + '</p>'+'<p> Período: ' + feature.properties.periodo + '</p>');
+                    }
+                }).addTo(mymap);
+                */
+            </script>
+        </section>
+
+        <!-- Seção de contatos do autor -->
+        <section  id="contatos" class="contact-section bg-black">
+            <div class="container" style="height: 380px">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marker-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Endereço</h4>
+                                <hr class="my-4">
+                                <div class="small text-black-50">Florianópolis | São José - SC - Brasil</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4">
+                                <div class="small text-black-50">
+                                    <a href="#">phporath@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Telefone</h4>
+                                <hr class="my-4">
+                                <div class="small text-black-50">(48) 9 9817-9457</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/phporath" class="mx-2">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/phporath" class="mx-2">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="http://lattes.cnpq.br/5864453399636346" class="mx-2">
+                        <img class="alignnone wp-image-264"
+                            src="img/icone-lattes2.png"
+                            alt="icone-lattes" width="25" height="25"
+                            sizes="(max-width: 25px) 100vw, 25px">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-black small text-center text-white-50">
+            <div class="container">
+                <p class="text-left" style="font-size: 12px;margin-top: 0px;">Created by <span
+                        style="color: #35aca8;">Pedro Henrique Machado Porath</span></p>
+            </div>
+        </footer>
+
+        <!-- Libs JS -->
+        <script src="vendor/jquery/dist/jquery.js" charset="utf-8"></script>
+        <script src="vendor/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/grayscale.min.js"></script>
+
+        <!-- Meus JS -->
+        <script type="text/javascript">
+
+            // O '$' representa a biblioteca jquery. Podemos utilizar seletores CSS para localizar e modificar alguns elementos HTML. Ex: $('#um-seletor-qualquer') -> Neste caso estamos selecionando através de um id.
+            // A bloco abaixo, garante que tudo o que está dentro dele somente será executado quando o documento inteiro estiver carregado. Também é conhecido como 'document.ready'.
+            $(function () {
+                // Busca o tamanho do viewport do monitor, remove 50px do header, e define a altura da seção de apresentação (para que a imagem ocupe a tela inteira no momento do carregamento do site).
+                $('#home').height($(window).height());
+            });
+        </script>
+
+</body>
+
+</html>
+
+
+<!--
+    Ícones feitos por <a href="https://www.flaticon.com/br/autores/vaadin" title="Vaadin">Vaadin</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+-->

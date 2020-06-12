@@ -1,0 +1,21 @@
+https://unsplash.com/s/photos/dark-map fotografias
+https://www.wordclouds.com/ wordclouds
+https://www.gratispng.com/ icones e figuras png
+https://icons8.com.br/icons/set/globe icone
+https://cssgradient.io/ gradiente de cores
+https://pixlr.com/x/ editor de figuras
+http://reusableforms.com/d/o5/html5-contact-form-send-email formulário e-mail
+https://html.form.guide/email-form/html-email-form.html
+https://wordart.com/
+https://leafletjs.com/examples.html biblioteca de mapas
+https://leafletjs.com/reference-1.6.0.html#geojson documentação leaflet
+https://docs.eegeo.com/eegeo.js/v0.1.214/docs/leaflet/L.GeoJson/ dicas sobre leaflet
+https://www.npmjs.com/package/leaflet.awesome-markers/v/2.0.5 icones para leaflet
+https://www.iconfinder.com/ icones (inclusive para mapas)
+https://maptimeboston.github.io/leaflet-intro/ dicas paara Leaflet
+
+
+#35aca8
+
+#161616
+

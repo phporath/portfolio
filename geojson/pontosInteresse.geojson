@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "pontosInteresse",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "tipo": "Estudo", "nome": "UDESC", "situacao": "Graduação em Geografia", "periodo": null }, "geometry": { "type": "Point", "coordinates": [ -48.505030672315058, -27.586088798415464 ] } },
+{ "type": "Feature", "properties": { "id": 2, "tipo": "Trabalho", "nome": "Geolab", "situacao": "Bolsista de Pesquisa", "periodo": null }, "geometry": { "type": "Point", "coordinates": [ -48.505003163512242, -27.585920306998212 ] } },
+{ "type": "Feature", "properties": { "id": 3, "tipo": "Estudo", "nome": "IFSC", "situacao": "Curso Técnico em Agrimensura", "periodo": "2009\/02 - 2010\/02" }, "geometry": { "type": "Point", "coordinates": [ -48.542600819762235, -27.593915052816875 ] } },
+{ "type": "Feature", "properties": { "id": 4, "tipo": "Trabalho", "nome": "Scientia Consultoria Científica", "situacao": "Estágio em Geoprocessamento", "periodo": "2011\/02 - 2012\/01" }, "geometry": { "type": "Point", "coordinates": [ -48.591689418738895, -27.611583441076117 ] } },
+{ "type": "Feature", "properties": { "id": 5, "tipo": "Estudo", "nome": "Halmstad University", "situacao": "Intercâmbio Universitário", "periodo": "2012\/02 - 2012\/02" }, "geometry": { "type": "Point", "coordinates": [ 12.878352844704672, 56.664633907193057 ] } },
+{ "type": "Feature", "properties": { "id": 6, "tipo": "Estudo", "nome": "ABC School of English", "situacao": "Curso Intensivo de Inglês", "periodo": "2013\/01 - 2013\/01" }, "geometry": { "type": "Point", "coordinates": [ -0.126370510634444, 51.514862192190748 ] } },
+{ "type": "Feature", "properties": { "id": 7, "tipo": "Trabalho", "nome": "VisãoGeo", "situacao": "Estágio em Geoprocessamento", "periodo": "2013\/01 - 2013\/01" }, "geometry": { "type": "Point", "coordinates": [ -48.508556893533417, -27.571303232451776 ] } },
+{ "type": "Feature", "properties": { "id": 8, "tipo": "Trabalho", "nome": "LabTrans", "situacao": "Geógrafo", "periodo": "2013\/02 - 2018\/01" }, "geometry": { "type": "Point", "coordinates": [ -48.512387468948539, -27.507931172949938 ] } },
+{ "type": "Feature", "properties": { "id": 9, "tipo": "Trabalho", "nome": "Eldorado Indústria de Reciclagem", "situacao": "Gerente Comercial", "periodo": "2018\/02 - 2019\/02" }, "geometry": { "type": "Point", "coordinates": [ -48.684500303358135, -27.486378330468387 ] } },
+{ "type": "Feature", "properties": { "id": 10, "tipo": "Estudo", "nome": "SENAI-SC", "situacao": "Curso de Programação de Sistemas", "periodo": "2014\/02 - 2015\/01" }, "geometry": { "type": "Point", "coordinates": [ -48.498160646992851, -27.54794861413998 ] } },
+{ "type": "Feature", "properties": { "id": 11, "tipo": "Estudo", "nome": "IPOG", "situacao": "MBA em Infraestrutura de Transportes e Rodovias", "periodo": "2014\/02 - 2016\/01" }, "geometry": { "type": "Point", "coordinates": [ -48.50932084648548, -27.53477402926913 ] } },
+{ "type": "Feature", "properties": { "id": 12, "tipo": "Estudo", "nome": "UFSC", "situacao": "Mestrado em Engenharia de Transportes e Gestão Territorial", "periodo": "2017\/01 - 2019\/02" }, "geometry": { "type": "Point", "coordinates": [ -48.514964008385867, -27.599854172258052 ] } },
+{ "type": "Feature", "properties": { "id": 13, "tipo": "Trabalho", "nome": "Porath Engenharia Consultiva", "situacao": "Sócio-proprietário", "periodo": "2020\/01 - Até o momento" }, "geometry": { "type": "Point", "coordinates": [ -48.574991971946758, -27.601396492368746 ] } },
+{ "type": "Feature", "properties": { "id": 14, "tipo": "Trabalho", "nome": "Grupo Zago", "situacao": "Consultor GIS", "periodo": "2020\/01 - Até o momento" }, "geometry": { "type": "Point", "coordinates": [ -47.913343851559311, -15.786777603992379 ] } },
+{ "type": "Feature", "properties": { "id": 15, "tipo": "Estudo", "nome": "UNIVALI", "situacao": "Tecnólogo em Análise e Desenvolvimento de Sistemas", "periodo": "2020\/01 - Até o momento" }, "geometry": { "type": "Point", "coordinates": [ -48.620043574806566, -27.598138881667666 ] } }
+]
+}

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="768">
+<defs>
+<style type="text/css"> @import url(https://fonts.googleapis.com/css2?family=Open%20Sans:wght@400&amp;display=swap); </style>
+</defs>
+<g>
+<g transform="translate(510,384) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="34.4797px" font-style="normal" font-weight="normal" x="-33.99871826171875" y="-13.79189504" text-anchor="start" dominant-baseline="alphabetic">AHP</text>
+</g>
+<g transform="translate(510,412) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="34.4797px" font-style="normal" font-weight="normal" x="-26.811859130859375" y="-13.79189504" text-anchor="start" dominant-baseline="alphabetic">GIS</text>
+</g>
+<g transform="translate(498,352) rotate(-38.907518231406726,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="34.4797px" font-style="normal" font-weight="normal" x="-26.811859130859375" y="-13.79189504" text-anchor="start" dominant-baseline="alphabetic">SIG</text>
+</g>
+<g transform="translate(436,384) rotate(70.86783270862281,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="30.1698px" font-style="normal" font-weight="normal" x="-201.1058349609375" y="-12.067908160000002" text-anchor="start" dominant-baseline="alphabetic">Automatização de Processos</text>
+</g>
+<g transform="translate(584,318) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="30.1698px" font-style="normal" font-weight="normal" x="-140.21888732910156" y="-12.067908160000002" text-anchor="start" dominant-baseline="alphabetic">Análise Multicritério</text>
+</g>
+<g transform="translate(542,286) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="30.1698px" font-style="normal" font-weight="normal" x="-110.78787231445312" y="-12.067908160000002" text-anchor="start" dominant-baseline="alphabetic">Análise Espacial</text>
+</g>
+<g transform="translate(610,354) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="30.1698px" font-style="normal" font-weight="normal" x="-98.66791534423828" y="-12.067908160000002" text-anchor="start" dominant-baseline="alphabetic">Model Builder</text>
+</g>
+<g transform="translate(528,438) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="30.1698px" font-style="normal" font-weight="normal" x="-49.621124267578125" y="-12.067908160000002" text-anchor="start" dominant-baseline="alphabetic">Python</text>
+</g>
+<g transform="translate(506,208) rotate(22.25166556759602,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-139.2529296875" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">Construtor de Modelos</text>
+</g>
+<g transform="translate(564,172) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-105.33741760253906" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">Gestão Territorial</text>
+</g>
+<g transform="translate(468,136) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-117.97212982177734" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">Geoprocessamento</text>
+</g>
+<g transform="translate(488,112) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-100.78717041015625" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">Metodologia Ágil</text>
+</g>
+<g transform="translate(606,388) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-67.3702621459961" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">Cartografia</text>
+</g>
+<g transform="translate(574,416) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-39.71533203125" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">ArcGIS</text>
+</g>
+<g transform="translate(534,468) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-38.478370666503906" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">Scrum</text>
+</g>
+<g transform="translate(508,256) rotate(3.7873253661237265,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-33.34117889404297" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">GNSS</text>
+</g>
+<g transform="translate(530,492) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="25.8598px" font-style="normal" font-weight="normal" x="-30.173049926757812" y="-10.343921280000002" text-anchor="start" dominant-baseline="alphabetic">QGIS</text>
+</g>
+<g transform="translate(626,190) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="21.5498px" font-style="normal" font-weight="normal" x="-118.6224365234375" y="-8.6199344" text-anchor="start" dominant-baseline="alphabetic">Sensoriamento Remoto</text>
+</g>
+<g transform="translate(652,214) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="21.5498px" font-style="normal" font-weight="normal" x="-81.53221130371094" y="-8.6199344" text-anchor="start" dominant-baseline="alphabetic">Banco de Dados</text>
+</g>
+<g transform="translate(352,218) rotate(-37.961795968860315,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="21.5498px" font-style="normal" font-weight="normal" x="-71.5247573852539" y="-8.6199344" text-anchor="start" dominant-baseline="alphabetic">Geomarketing</text>
+</g>
+<g transform="translate(418,382) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="21.5498px" font-style="normal" font-weight="normal" x="-20.235809326171875" y="-8.6199344" text-anchor="start" dominant-baseline="alphabetic">GPS</text>
+</g>
+<g transform="translate(484,230) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="17.2399px" font-style="normal" font-weight="normal" x="-61.15045928955078" y="-6.89594752" text-anchor="start" dominant-baseline="alphabetic">Meio Ambiente</text>
+</g>
+<g transform="translate(454,574) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="17.2399px" font-style="normal" font-weight="normal" x="-52.07695770263672" y="-6.89594752" text-anchor="start" dominant-baseline="alphabetic">Google Earth</text>
+</g>
+<g transform="translate(354,290) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="17.2399px" font-style="normal" font-weight="normal" x="-51.70677185058594" y="-6.89594752" text-anchor="start" dominant-baseline="alphabetic">Agrimensura</text>
+</g>
+<g transform="translate(554,508) rotate(-19.1688293734408,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="17.2399px" font-style="normal" font-weight="normal" x="-37.50129699707031" y="-6.89594752" text-anchor="start" dominant-baseline="alphabetic">Geodésia</text>
+</g>
+<g transform="translate(464,80) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-118.81592559814453" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Análise e Desenvolvimento de Sistemas</text>
+</g>
+<g transform="translate(410,64) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-100.14566802978516" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Classificação Não-supervisionada</text>
+</g>
+<g transform="translate(688,224) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-86.16584014892578" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Classificação Supervisionada</text>
+</g>
+<g transform="translate(628,360) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-81.38078308105469" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Engenharia de Transportes</text>
+</g>
+<g transform="translate(508,144) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-65.80803680419922" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Cálculadora de Raster</text>
+</g>
+<g transform="translate(394,52) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-75.90180206298828" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Levantamento de Campo</text>
+</g>
+<g transform="translate(712,244) rotate(-9.513778601536663,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-57.729888916015625" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Imagem de Satélite</text>
+</g>
+<g transform="translate(326,168) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-59.18717956542969" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Tomada de Decisão</text>
+</g>
+<g transform="translate(566,444) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-51.695716857910156" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Análise Booleana</text>
+</g>
+<g transform="translate(352,272) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-49.54133605957031" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Setor Energético</text>
+</g>
+<g transform="translate(300,184) rotate(10.216837161052817,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-53.14984893798828" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Álgebra Booleana</text>
+</g>
+<g transform="translate(324,156) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-54.07090759277344" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Álgebra de Mapas</text>
+</g>
+<g transform="translate(412,40) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-49.97978210449219" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Aerotogrametria</text>
+</g>
+<g transform="translate(448,518) rotate(-34.496241469419914,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-43.70905303955078" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Aerofotografia</text>
+</g>
+<g transform="translate(378,328) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-43.44408416748047" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Curva de Nível</text>
+</g>
+<g transform="translate(368,312) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-45.86029815673828" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Geocodificação</text>
+</g>
+<g transform="translate(468,212) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-42.38739776611328" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Geoestatística</text>
+</g>
+<g transform="translate(456,552) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-42.33061218261719" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Sócio-espacial</text>
+</g>
+<g transform="translate(460,584) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-46.63624572753906" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Gerenciamento</text>
+</g>
+<g transform="translate(370,300) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-40.084754943847656" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Plano Diretor</text>
+</g>
+<g transform="translate(456,596) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-46.062156677246094" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Versionamento</text>
+</g>
+<g transform="translate(354,256) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-40.51690673828125" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Google Cloud</text>
+</g>
+<g transform="translate(436,420) rotate(78.21864248715521,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-41.71238708496094" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Planejamento</text>
+</g>
+<g transform="translate(438,476) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-36.47624969482422" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Arqueologia</text>
+</g>
+<g transform="translate(536,324) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-30.12665557861328" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Estatística</text>
+</g>
+<g transform="translate(418,416) rotate(83.48428507334704,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-39.447601318359375" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Google Maps</text>
+</g>
+<g transform="translate(582,256) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-36.33430480957031" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Transportes</text>
+</g>
+<g transform="translate(474,622) rotate(-82.93749621352538,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-28.814468383789062" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Javascript</text>
+</g>
+<g transform="translate(688,280) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-34.883323669433594" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">PostgreSQL</text>
+</g>
+<g transform="translate(438,200) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-32.520774841308594" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Topografia</text>
+</g>
+<g transform="translate(692,268) rotate(0,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-38.551795959472656" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Zoneamento</text>
+</g>
+<g transform="translate(454,676) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-32.303131103515625" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Geocoding</text>
+</g>
+<g transform="translate(432,496) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-29.413795471191406" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Geografia</text>
+</g>
+<g transform="translate(398,340) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-27.19947052001953" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Relatório</text>
+</g>
+<g transform="translate(448,252) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-26.742095947265625" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Power BI</text>
+</g>
+<g transform="translate(466,536) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-27.108009338378906" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">AutoCAD</text>
+</g>
+<g transform="translate(598,424) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-20.297882080078125" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Leaflet</text>
+</g>
+<g transform="translate(450,240) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-23.202987670898438" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">PostGIS</text>
+</g>
+<g transform="translate(410,352) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-20.171707153320312" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Croqui</text>
+</g>
+<g transform="translate(640,396) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-21.30725860595703" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">GitHub</text>
+</g>
+<g transform="translate(532,292) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-18.95415496826172" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Planta</text>
+</g>
+<g transform="translate(594,456) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-19.20964813232422" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Raster</text>
+</g>
+<g transform="translate(362,244) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-27.12378692626953" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Webmap</text>
+</g>
+<g transform="translate(582,476) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-20.556541442871094" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Datum</text>
+</g>
+<g transform="translate(422,444) rotate(-68.57342751728496,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-15.310943603515625" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Excel</text>
+</g>
+<g transform="translate(462,324) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-16.288772583007812" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Vetor</text>
+</g>
+<g transform="translate(608,436) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-17.525253295898438" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">HTML</text>
+</g>
+<g transform="translate(616,324) rotate(0,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-14.973434448242188" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">INDE</text>
+</g>
+<g transform="translate(562,244) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-16.976417541503906" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Mapa</text>
+</g>
+<g transform="translate(690,376) rotate(0,0,0)">
+<text fill="#4362a7" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-15.566436767578125" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">NDBI</text>
+</g>
+<g transform="translate(478,518) rotate(-35.41933221696512,0,0)">
+<text fill="#ce3440" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-15.225776672363281" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">NDVI</text>
+</g>
+<g transform="translate(700,328) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-17.361236572265625" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">NDWI</text>
+</g>
+<g transform="translate(470,292) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-12.872673034667969" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">CAD</text>
+</g>
+<g transform="translate(598,468) rotate(0,0,0)">
+<text fill="#4ba894" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-11.16619873046875" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">CSS</text>
+</g>
+<g transform="translate(466,386) rotate(56.99373204316871,0,0)">
+<text fill="#ca8f57" stroke="none" font-family="Open Sans" font-size="12.9299px" font-style="normal" font-weight="normal" x="-8.617530822753906" y="-5.2" text-anchor="start" dominant-baseline="alphabetic">Git</text>
+</g>
+<g transform="translate(504,410) rotate(0,0,0)">
+<text fill="#ffffff" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-6.930450439453125" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">PDI</text>
+</g>
+<g transform="translate(502,346) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-8.170654296875" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">SVN</text>
+</g>
+<g transform="translate(560,390) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-9.4024658203125" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">UTM</text>
+</g>
+<g transform="translate(550,374) rotate(0,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-3.98968505859375" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">BI</text>
+</g>
+<g transform="translate(292,210) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-38.034446716308594" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">Gestão de Projetos</text>
+</g>
+<g transform="translate(450,612) rotate(-48.284597622437005,0,0)">
+<text fill="#bed843" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-19.26526641845703" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">Mestrado</text>
+</g>
+<g transform="translate(464,438) rotate(0,0,0)">
+<text fill="#bc0a13" stroke="none" font-family="Open Sans" font-size="8.61993px" font-style="normal" font-weight="normal" x="-9.400360107421875" y="-3.44797376" text-anchor="start" dominant-baseline="alphabetic">MBA</text>
+</g>
+<g transform="translate(458,328) rotate(0,0,0)">
+<text fill="#7e42a6" stroke="none" font-family="Open Sans" font-size="4.30997px" font-style="normal" font-weight="normal" x="-8.303924560546875" y="-1.72398688" text-anchor="start" dominant-baseline="alphabetic">Projetos</text>
+</g>
+</g>
+</svg>

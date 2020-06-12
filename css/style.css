@@ -1,0 +1,179 @@
+body {
+    font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7b858b;
+    background-color: #F5F5F5;
+    -webkit-font-smoothing: antialised;
+  }
+
+body > div > section {
+    padding: 25px;
+    border-top: 1px solid #F3F3F3;
+  }
+
+.top-toolbar {
+    text-transform: uppercase;
+    background: rgba(7,7,7,.9);
+    -moz-transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+    z-index: 9999;
+    -webkit-font-smoothing: antialised;
+    height: 60px;
+    line-height: 40px;
+  }
+
+.navbar-default .navbar-section {
+    margin: 0;
+    padding: 12px 5px;
+    cursor: pointer;
+  }
+  
+.navbar-default .navbar-section > a {
+    color: #8e8e8e !important;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 5px;
+    transition: all 0.3s;
+  }
+  
+.navbar-default .navbar-section:hover > a {
+    color: #FFF !important;
+  }
+
+.icone-menu {
+    width: 50px;
+}
+
+.bloco-dois, .bloco-tres, .bloco-quatro, .bloco-cinco, .bloco-seis {
+    margin-top: 50px;
+}
+
+footer {
+    color: white;
+    padding: 20px 0;
+}
+
+.a-rodape {
+    text-decoration: none;
+    color: white;
+}
+
+.a-rodape:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .08em;
+    font-size: 18px;
+    color: #4d515c;
+  }
+  
+  .section-subtitle {
+    margin-bottom: 60px;
+  }
+
+.section-hr {
+    width: 40px;
+    margin-bottom: 40px;
+    border-top: 0.25rem solid #35aca8;
+  }
+
+#home {
+    color: #1D1D1C;
+    background: url('../img/mapaFundo5.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#sobre {
+background-color: #F6F8FB;
+}
+
+#sobre .container-fluid {
+padding: 0px;
+}
+
+#sobre p {
+margin-left: 5px;
+margin-right: 5px;
+text-align: justify;
+font-size: 12pt;
+}
+
+#portfolio {
+    background-color: #F6F8FB;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    }
+
+#sobre {
+    background-color: #F6F8FB;
+    }
+
+#itens {
+    text-align: justify;
+    padding: 50px;
+}
+
+#button {
+    background-color: #1D1D1C;
+}
+#carouselExampleCaptions {
+    background-color: #1D1D1C;
+    }
+
+#contatos {
+    background-color: #1D1D1C;
+    }
+
+.a-rodape {
+    text-decoration: none;
+    color: white;
+}
+
+.a-rodape:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*Webmap Leaflet*/
+.info {
+    padding: 6px 8px;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 0px;
+  }
+  .info h4 {
+    font: 20px/22px Arial, Helvetica, sans-serif;
+    margin: 0 0 5px;
+    color: #777;
+  }
+  
+  .legend {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+    background-color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  #mapid { height: 500px; }
+  
