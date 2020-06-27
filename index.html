@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     
     <!-- Favicon que fica na aba do navegador -->
-    <link rel="icon" href="img/logoSemNomePreto.png" type="image/svg" sizes="16x16">
+    <link rel="icon" href="img/logoSemNomePreto.png" alt="Logo Pedro Porath Soluções em GIS" type="image/svg" sizes="16x16">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,7 +59,7 @@
         <!-- Barra de Navigação -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <img class="icone-menu" src="img/logoSemNome.png" style="margin-right: 50px;">
+                <img class="icone-menu" src="img/logoSemNome.png" alt="Logo Pedro Porath Soluções em GIS" style="margin-right: 50px;">
                 <a class="navbar-brand js-scroll-trigger" href="#home">PEDRO PORATH</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -94,7 +94,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="img/logo.png" width="600px" style="margin-left: calc(50% - 650px)">
+                        <img src="img/logo.png" alt="Logo Pedro Porath Soluções em GIS" width="600px" style="margin-left: calc(50% - 650px)">
                     </div>
                 </div>
             </div>
@@ -384,28 +384,7 @@
                     "Empresas": pontoTrabalho
                 };              
 
-                L.control.layers(baseLayers, overlays).addTo(mymap);
-
-                // Créditos - Logo (logo position: bottomright, topright, topleft, bottomleft)
-                
-                /*
-                var logo = L.control({position: 'topleft'});
-                logo.onAdd = function(mymap){
-                    var div = L.DomUtil.create('div', 'myclass');
-                    div.innerHTML= "<img src='img/logoSemNome.png' alt='Logo Pedro Porath Soluções em GIS' width='50'/>";
-                    return div;
-                }
-                logo.addTo(mymap);
-                */
-
-                // Primeiro Teste
-                /*
-                var layerGroup = L.geoJSON(locais, {
-                    onEachFeature: function (feature, geojsonFeature) {
-                        geojsonFeature.bindPopup('<b>' + feature.properties.nome + '</b>'+'<p>' + feature.properties.situacao + '</p>'+'<p> Período: ' + feature.properties.periodo + '</p>');
-                    }
-                }).addTo(mymap);
-                */
+                L.control.layers(baseLayers, overlays).addTo(mymap)
             </script>
         </section>
 
