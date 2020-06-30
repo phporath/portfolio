@@ -36,8 +36,8 @@
 
     <!-- Link para dados Geográficos -->
     <script src="geojson/pontos.js"></script>
-    <script src="http://Leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
-    <script src="geojson/locaisVisitados.js"></script>
+    <script src="http://Leaflet.github.io/Leaflet.heat/dist/Leaflet-heat.js"></script>
+    
 
     <!-- Leaflet's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -250,7 +250,6 @@
             </div>
         </section>
 
-
         <section id="webmap">
             <h1 class="text-center section-title" style="margin-top: 5px;">Por onde andei</h1>
             <hr class="section-hr">
@@ -333,15 +332,6 @@
                     if (feature.properties.tipo === "Trabalho") return true
                 };
                 
-                // Camada Heat Map
-                /*
-                var heat = L.heatLayer(locais, {
-                    radius: 20,
-                    blur: 15, 
-                    maxZoom: 17
-                });
-                */
-
                 // Tela inicial indicando a localização, zoom e layers a serem apresentadas
 
                 var mymap = L.map('mapid', {
@@ -378,7 +368,6 @@
                 }
                 legend.addTo(mymap);
               
-
                 // Visualização
 
                 var baseLayers = {
@@ -393,8 +382,7 @@
                 var overlays = {
                     "Instituições de Ensino": pontoEstudo,
                     "Empresas": pontoTrabalho
-                    //"Mapa de Calor": heat
-                };
+                };              
 
                 L.control.layers(baseLayers, overlays).addTo(mymap)
                 
