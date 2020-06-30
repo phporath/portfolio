@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "osm_id": null, "name": "Centro Comunitario", "barrier": null, "highway": null, "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": null }, "geometry": { "type": "Point", "coordinates": [ -48.502865853821682, -27.665077517331063, -1.7976931348623157e+308 ] } },
-{ "type": "Feature", "properties": { "osm_id": null, "name": "Centro Comunitario", "barrier": null, "highway": null, "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": null }, "geometry": { "type": "Point", "coordinates": [ -48.4946413412789, -27.682969671294973, -1.7976931348623157e+308 ] } }
-]
-}

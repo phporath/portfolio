@@ -36,6 +36,8 @@
 
     <!-- Link para dados Geográficos -->
     <script src="geojson/pontos.js"></script>
+    <script src="http://Leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+    <script src="geojson/locaisVisitados.js"></script>
 
     <!-- Leaflet's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -215,7 +217,7 @@
                                 <h5 class="card-title">Publicações</h5>
                                 <p class="card-text">Coletânia de publicações (artigos, TCC, dissertação de mestrado,
                                     banners e etc) de minha autoria ou coautoria</p>
-                                <a href="https://drive.google.com/drive/folders/0B7HtZsLkX5nEc1dKY3YxYW4xMTA"
+                                <a href="https://drive.google.com/drive/folders/1pPydN6A2MUYwbfkhUnWew-d9qTdBlK23"
                                     class="btn btn-dark">Acesse</a>
                             </div>
                         </div>
@@ -329,7 +331,16 @@
 
                 function tipoFilter2(feature){
                     if (feature.properties.tipo === "Trabalho") return true
-                }
+                };
+                
+                // Camada Heat Map
+                /*
+                var heat = L.heatLayer(locais, {
+                    radius: 20,
+                    blur: 15, 
+                    maxZoom: 17
+                });
+                */
 
                 // Tela inicial indicando a localização, zoom e layers a serem apresentadas
 
@@ -382,9 +393,11 @@
                 var overlays = {
                     "Instituições de Ensino": pontoEstudo,
                     "Empresas": pontoTrabalho
-                };              
+                    //"Mapa de Calor": heat
+                };
 
                 L.control.layers(baseLayers, overlays).addTo(mymap)
+                
             </script>
         </section>
 
